@@ -1,0 +1,15 @@
+Feature Engineering:
+
+Step1: EDA (Exploratory Data Analysis)
+Raw Data:
+1. Check for numerical features ( using histogram, pdf)
+2. Categorical features there ( 
+3. Missing values ( visualize all the graph)
+4. outliers (Box plot) -> IQR
+5. Cleaning
+Step2: Handling the missing values ( mean, median, mode)
+Step3: Handling Imbalanced dataset
+Step4: Testing the outliers
+Step5: Scaling the data (Standadization, Normalization) should be done after splitting into training and testing dataset.
+standardization = (x - mean(x))/S.D(x), Normalization = (x - min(x))/(max(x)-min(x))
+Step6: Converting categorical to numerical features
